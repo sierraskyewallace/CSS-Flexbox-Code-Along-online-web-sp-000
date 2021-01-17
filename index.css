@@ -26,3 +26,17 @@ footer {
   height: 80px;
   width: 100%;
 }
+
+.flex-container {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: #FCF2EC;
+}
